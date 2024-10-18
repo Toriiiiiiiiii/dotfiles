@@ -46,14 +46,14 @@ Arc-Dark Color Scheme
     min-height: 0;
     margin: 0;
     padding: 0;
-    color: #5BCEFA;
+    color: #ffffff;
 }
 
 
 /* The whole bar */
 window#waybar {
     /* color: #dfdfdf; */
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.0);
     /* background-color: rgba(8, 0, 37, 0.85); */
     /* background-color: rgba(0,0,0,0); */
     font-family: IntoneMonoNerdFont;
@@ -210,8 +210,9 @@ window#waybar {
 #workspaces {
     font-size: 15px;
     /* background-color: rgba(0,0,0,0.8); */
-    border-radius: 20px;
-    color: orange;
+    border-radius: 10px;
+    border: 0px;
+    /*background-color: rgba(0, 0, 0, 0.75);*/
 }
 
 #workspaces button {
@@ -221,7 +222,10 @@ window#waybar {
 }
 
 #workspaces button.active {
+    border-radius: 5px 5px 0px 0px;
     border-bottom: 1px solid #F5A9B8;
+    /*background: linear-gradient(180deg, rgba(91, 206, 250, 0.5) 0%, rgba(245, 169, 184, 0.5) 100%);*/
+    color: white;
     margin-bottom: 1px;
     padding-left: 0;
 }
