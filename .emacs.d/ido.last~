@@ -22,11 +22,12 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/tori/dev/petl/selfhost/"
+ "/home/tori/dotfiles/"
  "/home/tori/dotfiles/hypr/"
  "/home/tori/dotfiles/waybar/"
  "/home/tori/"
  "/home/tori/dev/zgame/src/"
- "/home/tori/dev/petl/selfhost/"
  "/home/tori/dev/ace8/invader/"
  "/home/tori/.config/hypr/"
  "/home/tori/.config/kitty/"
@@ -62,23 +63,25 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "petl.petl"
+ "README.md"
  "hyprlock.conf"
  "style.css"
  ".emacs"
  "main.cc"
- "petl.petl"
  "lexer.petl"
  "main.asm"
  "hyprland.conf"
  "kitty.conf"
- "Makefile"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/tori/" (26387 36734 239812 847000) ".steampid" ".steampath" ".bash_history" ".wallpaper" ".librewolf/" "dotfiles/" ".emacs" ".emacs~" ".emacs.custom.el" ".emacs.custom.el~" ".waybarreload~" ".face" ".bashalias" ".bashalias~" ".odin/" ".bash_history-04220.tmp" ".bash_history-17036.tmp" ".bash_history-06161.tmp" ".emacs.rc/" ".emacs.local/" ".emacs.d/" ".bash_history-06862.tmp" ".winxp-2.draft.txt" ".wine/" ".bash_history-03871.tmp" ".bash_history-09309.tmp" ".bash_history-03778.tmp" "Games/" ".vscode-oss/" "deps/" ".android/" ".Genymobile/" ".gzdoom" "DOOM Wads/" ".slade3/" ".slade/" "college/" ".asy/" ".java/" "tex/" "revision/" ".gitconfig" ".tmux.conf" ".npm/" ".tmux-launch.sh" "neocities/" ".ssh/" "Zomboid/" ".steam/" ".tmux/" ".bashrc" "dev/" "notes/" "git/" ".themes/" ".var/" ".pki/" ".nv/" "Videos/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".local/" ".config/" ".cache/" ".bash_profile" ".bash_logout" ".mozilla/" "../" "./")
+ ("/home/tori/" (26388 4758 262630 987000) ".bash_history" ".emacs.rc/" ".emacs.local/" ".emacs.d/" ".emacs.custom.el" ".emacs" ".bashrc" ".bashalias" ".steampid" ".steampath" ".wallpaper" ".librewolf/" "dotfiles/" ".emacs~" ".emacs.custom.el~" ".waybarreload~" ".face" ".bashalias~" ".odin/" ".bash_history-04220.tmp" ".bash_history-17036.tmp" ".bash_history-06161.tmp" ".bash_history-06862.tmp" ".winxp-2.draft.txt" ".wine/" ".bash_history-03871.tmp" ".bash_history-09309.tmp" ".bash_history-03778.tmp" "Games/" ".vscode-oss/" "deps/" ".android/" ".Genymobile/" ".gzdoom" "DOOM Wads/" ".slade3/" ".slade/" "college/" ".asy/" ".java/" "tex/" "revision/" ".gitconfig" ".tmux.conf" ".npm/" ".tmux-launch.sh" "neocities/" ".ssh/" "Zomboid/" ".steam/" ".tmux/" "dev/" "notes/" "git/" ".themes/" ".var/" ".pki/" ".nv/" "Videos/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".local/" ".config/" ".cache/" ".bash_profile" ".bash_logout" ".mozilla/" "../" "./")
 
- ("/home/tori/dotfiles/hypr/" (26386 48772 296858 934000) "hyprland.conf" "hyprlock.conf" "hypridle.conf" "hyprpaper.conf" "../" "./")
+ ("/home/tori/dotfiles/hypr/" (26386 51160 166470 235000) "hyprland.conf" "hyprlock.conf" "hypridle.conf" "hyprpaper.conf" "../" "./")
+
+ ("/home/tori/dotfiles/" (26388 4044 44231 6000) "README.md" "README.md~" ".emacs.rc/" ".emacs.local/" ".emacs.d/" ".emacs.custom.el" ".emacs" ".bashalias" ".bashrc" "waybar/" "hypr/" ".git/" "../" "./")
 
  ("/home/tori/dotfiles/waybar/" (26386 50670 275303 805000) "style.css" "config" "config~" "style.css~" "scripts/" "../" "./")
 
@@ -89,8 +92,6 @@
  ("/home/tori/dev/petl/selfhost/" (26386 46210 988949 162000) "petl" "petl.petl" "petl.petl~" "lexer.petl" "lexer.petl~" "petl.out.asm" "compiler.petl" "parser.petl" "../" "./")
 
  ("/home/tori/dev/ace8/invader/" (26325 33702 222603 434000) "main.asm" "screen.asm" "math.asm" "graphics" "background.asm" "../" "./")
-
- ("/home/tori/dotfiles/" (26386 41997 370540 943000) "waybar/" "hypr/" ".git/" "../" "./")
 
  ("/home/tori/.config/" (26386 42091 367695 826000) "waybar/" "hypr/" "wofi/" "pavucontrol.ini" "simple-scan/" "kitty/" "mimeapps.list" "brasero/" "user-share/" "Firebird Emus/" "aseprite/" "kcachegrindrc" "libreoffice/" "Genymobile/" "fontforge/" "libvirt/" "gnome-boxes/" "inkscape/" "texstudio/" "enchant/" "obs-studio/" "ranger/" "btop/" "tmux-powerline/" "gh/" "neofetch/" "htop/" "pop-shell/" "menus/" "monitors.xml" "monitors.xml~" "nvim/" "nautilus/" "gtk-4.0/" "google-chrome-unstable/" "gnome-session/" "xdg-terminals.list" "GNOME-xdg-terminals.list" ".gsd-keyboard.settings-ported" "pulse/" "abrt/" "evolution/" "gtk-3.0/" "ibus/" "user-dirs.locale" "user-dirs.dirs" "goa-1.0/" "dconf/" "gnome-initial-setup-done" "../" "./")
 

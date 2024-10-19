@@ -27,3 +27,8 @@
 ### Emacs
 - [.emacs](.emacs)
 - [.emacs.custom.el](.emacs.custom.el)
+
+## Screenshots
+![Desktop with no programs](screenshots/desktop1.png)
+![Desktop running emacs and terminal](screenshots/desktop2.png)
+![Desktop running Obsidian + Gnome Document Viewer](screenshots/desktop3.png)
