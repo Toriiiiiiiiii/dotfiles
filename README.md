@@ -11,19 +11,19 @@
 
 ## Contents
 ### Hyprland, Hyprlock, Hypridle, Hyprpaper
-- <hypr/hyprland.conf>
-- <hypr/hyprlock.conf>
-- <hypr/hypridle.conf>
-- <hypr/hyprpaper.conf>
+- [hypr/hypland.conf](hypr/hyprland.conf)
+- [hypr/hyprlock.conf](hypr/hyprlock.conf)
+- [hypr/hypridle.conf](hypr/hypridle.conf)
+- [hypr/hyprpaper.conf](hypr/hyprpaper.conf)
 
 ### Waybar
-- <waybar/config>
-- <waybar/style.css>
+- [waybar/config](waybar/config)
+- [waybar/style.css](waybar/style.css)
 
 ### Bash
-- <.bashalias>
-- <.bashrc>
+- [.bashalias](.bashalias)
+- [.bashrc](.bashrc)
 
 ### Emacs
-- <.emacs>
-- <.emacs.custom.el>
+- [.emacs](.emacs)
+- [.emacs.custom.el](.emacs.custom.el)
