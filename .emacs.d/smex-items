@@ -1,0 +1,31 @@
+
+;; ----- smex-history -----
+(
+ customize-browse
+ pr-toggle-line
+ visual-line-mode
+ mode-line-unbury-buffer
+ align-current
+ mode-line-widen
+ compile
+)
+
+;; ----- smex-data -----
+(
+ (compile . 593)
+ (cmake-mode . 1)
+ (python-mode . 1)
+ (completion-list-mode . 1)
+ (petl-mode . 3)
+ (asm-mode . 4)
+ (text-mode . 2)
+ (indent-according-to-mode . 1)
+ (replace-string . 2)
+ (customize-themes . 1)
+ (align-current . 3)
+ (mode-line-widen . 4)
+ (mode-line-unbury-buffer . 1)
+ (visual-line-mode . 1)
+ (pr-toggle-line . 1)
+ (customize-browse . 2)
+)

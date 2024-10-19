@@ -1,0 +1,5 @@
+alias v="nvim"
+alias doom="flatpak run org.zdoom.GZDoom -iwad DOOM2.wad -file /home/tori/.var/app/org.zdoom.GZDoom/.config/gzdoom/id1.wad"
+alias ase="~/Downloads/Aseprite-v1.3.8.1-Source/build/bin/aseprite"
+alias c64="wine /home/tori/Downloads/SDL2VICE-3.8-win64-r45343/x64sc.exe"
+alias bright="brightnessctl -s set"
