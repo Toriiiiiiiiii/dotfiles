@@ -17,18 +17,18 @@
  ("/home/tori/dev/simulationGame/" . "src/")
  ("/home/tori/dev/petl/" . "selfhost/")
  ("/home/tori/" . "dotfiles/")
- ("/home/tori/dev/" . "zgame/")
+ ("/home/tori/dev/" . "ace8/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/tori/dev/petl/selfhost/"
  "/home/tori/dotfiles/"
+ "/home/tori/dev/ace8/invader/"
+ "/home/tori/dev/petl/selfhost/"
  "/home/tori/dotfiles/hypr/"
  "/home/tori/dotfiles/waybar/"
  "/home/tori/"
  "/home/tori/dev/zgame/src/"
- "/home/tori/dev/ace8/invader/"
  "/home/tori/.config/hypr/"
  "/home/tori/.config/kitty/"
  "/home/tori/.config/waybar/"
@@ -63,33 +63,33 @@
 
 ;; ----- ido-work-file-list -----
 (
- "petl.petl"
  "README.md"
+ "main.asm"
+ "lexer.petl"
  "hyprlock.conf"
  "style.css"
  ".emacs"
  "main.cc"
- "lexer.petl"
- "main.asm"
+ "petl.petl"
  "hyprland.conf"
  "kitty.conf"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/tori/" (26388 4758 262630 987000) ".bash_history" ".emacs.rc/" ".emacs.local/" ".emacs.d/" ".emacs.custom.el" ".emacs" ".bashrc" ".bashalias" ".steampid" ".steampath" ".wallpaper" ".librewolf/" "dotfiles/" ".emacs~" ".emacs.custom.el~" ".waybarreload~" ".face" ".bashalias~" ".odin/" ".bash_history-04220.tmp" ".bash_history-17036.tmp" ".bash_history-06161.tmp" ".bash_history-06862.tmp" ".winxp-2.draft.txt" ".wine/" ".bash_history-03871.tmp" ".bash_history-09309.tmp" ".bash_history-03778.tmp" "Games/" ".vscode-oss/" "deps/" ".android/" ".Genymobile/" ".gzdoom" "DOOM Wads/" ".slade3/" ".slade/" "college/" ".asy/" ".java/" "tex/" "revision/" ".gitconfig" ".tmux.conf" ".npm/" ".tmux-launch.sh" "neocities/" ".ssh/" "Zomboid/" ".steam/" ".tmux/" "dev/" "notes/" "git/" ".themes/" ".var/" ".pki/" ".nv/" "Videos/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".local/" ".config/" ".cache/" ".bash_profile" ".bash_logout" ".mozilla/" "../" "./")
+ ("/home/tori/dotfiles/" (26388 4794 365671 924000) "screenshots/" "README.md" "README.md~" ".emacs.rc/" ".emacs.local/" ".emacs.d/" ".emacs.custom.el" ".emacs" ".bashalias" ".bashrc" "waybar/" "hypr/" ".git/" "../" "./")
+
+ ("/home/tori/" (26388 4897 486645 148000) ".bash_history" ".emacs.rc/" ".emacs.local/" ".emacs.d/" ".emacs.custom.el" ".emacs" ".bashrc" ".bashalias" ".steampid" ".steampath" ".wallpaper" ".librewolf/" "dotfiles/" ".emacs~" ".emacs.custom.el~" ".waybarreload~" ".face" ".bashalias~" ".odin/" ".bash_history-04220.tmp" ".bash_history-17036.tmp" ".bash_history-06161.tmp" ".bash_history-06862.tmp" ".winxp-2.draft.txt" ".wine/" ".bash_history-03871.tmp" ".bash_history-09309.tmp" ".bash_history-03778.tmp" "Games/" ".vscode-oss/" "deps/" ".android/" ".Genymobile/" ".gzdoom" "DOOM Wads/" ".slade3/" ".slade/" "college/" ".asy/" ".java/" "tex/" "revision/" ".gitconfig" ".tmux.conf" ".npm/" ".tmux-launch.sh" "neocities/" ".ssh/" "Zomboid/" ".steam/" ".tmux/" "dev/" "notes/" "git/" ".themes/" ".var/" ".pki/" ".nv/" "Videos/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".local/" ".config/" ".cache/" ".bash_profile" ".bash_logout" ".mozilla/" "../" "./")
+
+ ("/home/tori/dev/petl/selfhost/" (26388 4849 245254 234000) "petl.petl" "petl.petl~" "petl" "lexer.petl" "lexer.petl~" "petl.out.asm" "compiler.petl" "parser.petl" "../" "./")
 
  ("/home/tori/dotfiles/hypr/" (26386 51160 166470 235000) "hyprland.conf" "hyprlock.conf" "hypridle.conf" "hyprpaper.conf" "../" "./")
-
- ("/home/tori/dotfiles/" (26388 4044 44231 6000) "README.md" "README.md~" ".emacs.rc/" ".emacs.local/" ".emacs.d/" ".emacs.custom.el" ".emacs" ".bashalias" ".bashrc" "waybar/" "hypr/" ".git/" "../" "./")
 
  ("/home/tori/dotfiles/waybar/" (26386 50670 275303 805000) "style.css" "config" "config~" "style.css~" "scripts/" "../" "./")
 
  ("/home/tori/dev/zgame/src/" (26386 40138 153354 144000) "main.cc" "../" "./")
 
  ("/home/tori/dev/zgame/" (26386 40139 641515 24000) "zgame" "Makefile" "obj/" "src/" "../" "./")
-
- ("/home/tori/dev/petl/selfhost/" (26386 46210 988949 162000) "petl" "petl.petl" "petl.petl~" "lexer.petl" "lexer.petl~" "petl.out.asm" "compiler.petl" "parser.petl" "../" "./")
 
  ("/home/tori/dev/ace8/invader/" (26325 33702 222603 434000) "main.asm" "screen.asm" "math.asm" "graphics" "background.asm" "../" "./")
 

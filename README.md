@@ -20,6 +20,9 @@
 - [waybar/config](waybar/config)
 - [waybar/style.css](waybar/style.css)
 
+### Kitty
+- [kitty/kitty.conf](kitty/kitty.conf)
+
 ### Bash
 - [.bashalias](.bashalias)
 - [.bashrc](.bashrc)
