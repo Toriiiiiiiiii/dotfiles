@@ -4,7 +4,7 @@
 (
  ("/home/tori/dev/neocities-site/" . "scripts/")
  ("/home/tori/dev/zgame/" . "src/")
- ("/home/tori/dotfiles/" . "hypr/")
+ ("/home/tori/dotfiles/" . "fastfetch/")
  ("/home/tori/dev/asmgame/" . "src/")
  ("/home/tori/dev/probe/" . "odin/")
  ("/home/tori/dev/ace8/" . "invader/")
@@ -23,9 +23,10 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/tori/dotfiles/"
+ "/home/tori/dotfiles/fastfetch/"
  "/home/tori/dev/neocities-site/"
  "/home/tori/dev/neocities-site/scripts/"
- "/home/tori/dotfiles/"
  "/home/tori/dev/ace8/invader/"
  "/home/tori/dev/petl/selfhost/"
  "/home/tori/dotfiles/hypr/"
@@ -65,27 +66,29 @@
 
 ;; ----- ido-work-file-list -----
 (
+ ".bashrc"
+ "config.jsonc"
+ "README.md"
  "guestbook.html"
  "microblog.js"
  "index.html"
- "README.md"
  "main.asm"
  "lexer.petl"
  "hyprlock.conf"
  "style.css"
- ".emacs"
- "main.cc"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/tori/dotfiles/fastfetch/" (26390 527 28478 871000) "config.jsonc" "config.jsonc~" "../" "./")
+
+ ("/home/tori/dotfiles/" (26389 64623 106028 159000) "fastfetch/" "kitty/" "screenshots/" "README.md" "README.md~" ".emacs.rc/" ".emacs.local/" ".emacs.d/" ".emacs.custom.el" ".emacs" ".bashalias" ".bashrc" "waybar/" "hypr/" ".git/" "../" "./")
+
+ ("/home/tori/" (26389 64657 727109 552000) ".bash_history" ".ip" ".ip~" ".emacs.rc/" ".emacs.local/" ".emacs.d/" ".emacs.custom.el" ".emacs" ".bashrc" ".bashalias" ".steampid" ".steampath" ".wallpaper" ".librewolf/" "dotfiles/" ".emacs~" ".emacs.custom.el~" ".waybarreload~" ".face" ".bashalias~" ".odin/" ".bash_history-04220.tmp" ".bash_history-17036.tmp" ".bash_history-06161.tmp" ".bash_history-06862.tmp" ".winxp-2.draft.txt" ".wine/" ".bash_history-03871.tmp" ".bash_history-09309.tmp" ".bash_history-03778.tmp" "Games/" ".vscode-oss/" "deps/" ".android/" ".Genymobile/" ".gzdoom" "DOOM Wads/" ".slade3/" ".slade/" "college/" ".asy/" ".java/" "tex/" "revision/" ".gitconfig" ".tmux.conf" ".npm/" ".tmux-launch.sh" "neocities/" ".ssh/" "Zomboid/" ".steam/" ".tmux/" "dev/" "notes/" "git/" ".themes/" ".var/" ".pki/" ".nv/" "Videos/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".local/" ".config/" ".cache/" ".bash_profile" ".bash_logout" ".mozilla/" "../" "./")
+
  ("/home/tori/dev/neocities-site/" (26389 13590 289849 551000) "index.html" "index.html~" "guestbook.html" "gay-agenda.html" "style.css" "writing/" "scripts/" "portfolio/" "images/" "fonts/" "blog/" "template.html" "not_found.html" "deploy.sh" "changelog.html" "../" "./")
 
  ("/home/tori/dev/neocities-site/scripts/" (26345 18560 891732 459000) "changelog.js" "guestbook.js" "zonelets-blog.js" "zonelets-portfolio.js" "writingManager.js" "navbarManager.js" "microblog.js" "../" "./")
-
- ("/home/tori/" (26389 13300 208852 926000) ".bash_history" ".ip" ".ip~" ".emacs.rc/" ".emacs.local/" ".emacs.d/" ".emacs.custom.el" ".emacs" ".bashrc" ".bashalias" ".steampid" ".steampath" ".wallpaper" ".librewolf/" "dotfiles/" ".emacs~" ".emacs.custom.el~" ".waybarreload~" ".face" ".bashalias~" ".odin/" ".bash_history-04220.tmp" ".bash_history-17036.tmp" ".bash_history-06161.tmp" ".bash_history-06862.tmp" ".winxp-2.draft.txt" ".wine/" ".bash_history-03871.tmp" ".bash_history-09309.tmp" ".bash_history-03778.tmp" "Games/" ".vscode-oss/" "deps/" ".android/" ".Genymobile/" ".gzdoom" "DOOM Wads/" ".slade3/" ".slade/" "college/" ".asy/" ".java/" "tex/" "revision/" ".gitconfig" ".tmux.conf" ".npm/" ".tmux-launch.sh" "neocities/" ".ssh/" "Zomboid/" ".steam/" ".tmux/" "dev/" "notes/" "git/" ".themes/" ".var/" ".pki/" ".nv/" "Videos/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".local/" ".config/" ".cache/" ".bash_profile" ".bash_logout" ".mozilla/" "../" "./")
-
- ("/home/tori/dotfiles/" (26388 4794 365671 924000) "screenshots/" "README.md" "README.md~" ".emacs.rc/" ".emacs.local/" ".emacs.d/" ".emacs.custom.el" ".emacs" ".bashalias" ".bashrc" "waybar/" "hypr/" ".git/" "../" "./")
 
  ("/home/tori/dev/petl/selfhost/" (26388 4849 245254 234000) "petl.petl" "petl.petl~" "petl" "lexer.petl" "lexer.petl~" "petl.out.asm" "compiler.petl" "parser.petl" "../" "./")
 

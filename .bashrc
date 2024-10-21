@@ -28,3 +28,5 @@ source .bashalias
 
 PS1="\033[0;32m\u \033[0;31m♡ \033[0;36m\w \033[0;0m$ "
 export PATH="/path/to/Odin/folder:$PATH"
+
+clear && fastfetch

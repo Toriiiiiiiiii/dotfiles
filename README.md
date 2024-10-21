@@ -31,6 +31,9 @@
 - [.emacs](.emacs)
 - [.emacs.custom.el](.emacs.custom.el)
 
+### Fastfetch
+- [fastfetch/config.jsonc](fastfetch/config.jsonc)
+
 ## Screenshots
 ![Desktop with no programs](screenshots/desktop1.png)
 ![Desktop running emacs and terminal](screenshots/desktop2.png)

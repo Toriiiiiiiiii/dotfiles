@@ -2,6 +2,7 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/tori/dev/neocities-site/" . "scripts/")
  ("/home/tori/dev/zgame/" . "src/")
  ("/home/tori/dotfiles/" . "hypr/")
  ("/home/tori/dev/asmgame/" . "src/")
@@ -17,12 +18,14 @@
  ("/home/tori/dev/simulationGame/" . "src/")
  ("/home/tori/dev/petl/" . "selfhost/")
  ("/home/tori/" . "dotfiles/")
- ("/home/tori/dev/" . "ace8/")
+ ("/home/tori/dev/" . "neocities-site/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
  "/home/tori/dotfiles/"
+ "/home/tori/dev/neocities-site/"
+ "/home/tori/dev/neocities-site/scripts/"
  "/home/tori/dev/ace8/invader/"
  "/home/tori/dev/petl/selfhost/"
  "/home/tori/dotfiles/hypr/"
@@ -47,7 +50,6 @@
  "/home/tori/dev/ace8/emu/src/"
  "/home/tori/dev/ace8/asm/"
  "/home/tori/.odin/vendor/raylib/"
- "/home/tori/dev/neocities-site/"
  "/home/tori/git/Dungeon-Dive-Project/"
  "/home/tori/.emacs.local/"
  "/home/tori/dev/petl/tests/"
@@ -64,22 +66,26 @@
 ;; ----- ido-work-file-list -----
 (
  "README.md"
+ "guestbook.html"
+ "microblog.js"
+ "index.html"
  "main.asm"
  "lexer.petl"
  "hyprlock.conf"
  "style.css"
  ".emacs"
  "main.cc"
- "petl.petl"
- "hyprland.conf"
- "kitty.conf"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/tori/dotfiles/" (26388 4794 365671 924000) "screenshots/" "README.md" "README.md~" ".emacs.rc/" ".emacs.local/" ".emacs.d/" ".emacs.custom.el" ".emacs" ".bashalias" ".bashrc" "waybar/" "hypr/" ".git/" "../" "./")
+ ("/home/tori/dotfiles/" (26389 27521 887634 414000) "kitty/" "screenshots/" "README.md" "README.md~" ".emacs.rc/" ".emacs.local/" ".emacs.d/" ".emacs.custom.el" ".emacs" ".bashalias" ".bashrc" "waybar/" "hypr/" ".git/" "../" "./")
 
- ("/home/tori/" (26388 4897 486645 148000) ".bash_history" ".emacs.rc/" ".emacs.local/" ".emacs.d/" ".emacs.custom.el" ".emacs" ".bashrc" ".bashalias" ".steampid" ".steampath" ".wallpaper" ".librewolf/" "dotfiles/" ".emacs~" ".emacs.custom.el~" ".waybarreload~" ".face" ".bashalias~" ".odin/" ".bash_history-04220.tmp" ".bash_history-17036.tmp" ".bash_history-06161.tmp" ".bash_history-06862.tmp" ".winxp-2.draft.txt" ".wine/" ".bash_history-03871.tmp" ".bash_history-09309.tmp" ".bash_history-03778.tmp" "Games/" ".vscode-oss/" "deps/" ".android/" ".Genymobile/" ".gzdoom" "DOOM Wads/" ".slade3/" ".slade/" "college/" ".asy/" ".java/" "tex/" "revision/" ".gitconfig" ".tmux.conf" ".npm/" ".tmux-launch.sh" "neocities/" ".ssh/" "Zomboid/" ".steam/" ".tmux/" "dev/" "notes/" "git/" ".themes/" ".var/" ".pki/" ".nv/" "Videos/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".local/" ".config/" ".cache/" ".bash_profile" ".bash_logout" ".mozilla/" "../" "./")
+ ("/home/tori/" (26389 26935 109065 161000) ".bash_history" ".ip" ".ip~" ".emacs.rc/" ".emacs.local/" ".emacs.d/" ".emacs.custom.el" ".emacs" ".bashrc" ".bashalias" ".steampid" ".steampath" ".wallpaper" ".librewolf/" "dotfiles/" ".emacs~" ".emacs.custom.el~" ".waybarreload~" ".face" ".bashalias~" ".odin/" ".bash_history-04220.tmp" ".bash_history-17036.tmp" ".bash_history-06161.tmp" ".bash_history-06862.tmp" ".winxp-2.draft.txt" ".wine/" ".bash_history-03871.tmp" ".bash_history-09309.tmp" ".bash_history-03778.tmp" "Games/" ".vscode-oss/" "deps/" ".android/" ".Genymobile/" ".gzdoom" "DOOM Wads/" ".slade3/" ".slade/" "college/" ".asy/" ".java/" "tex/" "revision/" ".gitconfig" ".tmux.conf" ".npm/" ".tmux-launch.sh" "neocities/" ".ssh/" "Zomboid/" ".steam/" ".tmux/" "dev/" "notes/" "git/" ".themes/" ".var/" ".pki/" ".nv/" "Videos/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".local/" ".config/" ".cache/" ".bash_profile" ".bash_logout" ".mozilla/" "../" "./")
+
+ ("/home/tori/dev/neocities-site/" (26389 13590 289849 551000) "index.html" "index.html~" "guestbook.html" "gay-agenda.html" "style.css" "writing/" "scripts/" "portfolio/" "images/" "fonts/" "blog/" "template.html" "not_found.html" "deploy.sh" "changelog.html" "../" "./")
+
+ ("/home/tori/dev/neocities-site/scripts/" (26345 18560 891732 459000) "changelog.js" "guestbook.js" "zonelets-blog.js" "zonelets-portfolio.js" "writingManager.js" "navbarManager.js" "microblog.js" "../" "./")
 
  ("/home/tori/dev/petl/selfhost/" (26388 4849 245254 234000) "petl.petl" "petl.petl~" "petl" "lexer.petl" "lexer.petl~" "petl.out.asm" "compiler.petl" "parser.petl" "../" "./")
 
@@ -134,8 +140,6 @@
  ("/home/tori/dev/ace8/" (26325 34177 611570 782000) ".gitignore" "test.asm" "test" "inv" "notes/" "invader/" "graphedit/" "emu/" "docs/" "bin/" "asm/" "README.md" ".git/" "../" "./")
 
  ("/home/tori/git/Dungeon-Dive-Project/" (26381 5501 364726 655000) "project_final.py" "project.py" "dungeon_dive_DB.db" "assets/" "__init__.py" ".git/" "../" "./")
-
- ("/home/tori/dev/neocities-site/" (26382 29676 24524 996000) "index.html" "index.html~" "guestbook.html" "gay-agenda.html" "style.css" "writing/" "scripts/" "portfolio/" "images/" "fonts/" "blog/" "template.html" "not_found.html" "deploy.sh" "changelog.html" "../" "./")
 
  ("/home/tori/.odin/vendor/raylib/" (26382 30399 733985 292000) "windows/" "rlgl/" "README.md" "raymath.odin" "raylib.odin" "raygui.odin" "macos-arm64/" "macos/" "linux/" "LICENSE" "easings.odin" "../" "./")
 
