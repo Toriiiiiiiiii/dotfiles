@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ org-mode
+ org-latex-preview
+ org-toggle-latex-fragment
+ org-preview-latex-fragment
+ list-packages
  customize-browse
  pr-toggle-line
- visual-line-mode
- mode-line-unbury-buffer
- align-current
- mode-line-widen
- compile
 )
 
 ;; ----- smex-data -----
@@ -27,5 +27,11 @@
  (mode-line-unbury-buffer . 1)
  (visual-line-mode . 1)
  (pr-toggle-line . 1)
- (customize-browse . 2)
+ (customize-browse . 3)
+ (list-packages . 2)
+ (preview-clearout-buffer . 1)
+ (org-preview-latex-fragment . 1)
+ (org-latex-preview . 3)
+ (org-toggle-latex-fragment . 2)
+ (org-mode . 2)
 )

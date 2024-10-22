@@ -8,6 +8,7 @@
 
 (add-to-list 'default-frame-alist '(font . "Iosevka"))
 (add-to-list 'load-path "~/.emacs.local/")
+(add-to-list 'load-path "~/git/org-mode/lisp")
 
 (load-file "~/.emacs.rc/rc.el")
 
@@ -50,3 +51,12 @@
 (load-theme 'nordic-night t)
 
 (setq display-line-numbers-type 'relative)
+
+(setq TeX-auto-save t)
+(setq TeX-parse-self t)
+(setq-default TeX-master nil)
+
+;; Org mode
+(global-set-key (kbd "C-c l") #'org-store-link)
+(global-set-key (kbd "C-c a") #'org-agenda)
+(global-set-key (kbd "C-c c") #'org-capture)

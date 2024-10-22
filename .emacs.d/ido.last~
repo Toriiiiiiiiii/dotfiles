@@ -2,9 +2,13 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/tori/revision/maths/pure/further-y2-hyperbolics/" . "integration-of-hyperbolics.tex/")
+ ("/home/tori/revision/maths/pure/" . "further-y2-hyperbolics/")
+ ("/home/tori/revision/maths/" . "pure/")
+ ("/home/tori/revision/" . "maths/")
  ("/home/tori/dev/neocities-site/" . "scripts/")
  ("/home/tori/dev/zgame/" . "src/")
- ("/home/tori/dotfiles/" . "hypr/")
+ ("/home/tori/dotfiles/" . "fastfetch/")
  ("/home/tori/dev/asmgame/" . "src/")
  ("/home/tori/dev/probe/" . "odin/")
  ("/home/tori/dev/ace8/" . "invader/")
@@ -18,12 +22,19 @@
  ("/home/tori/dev/simulationGame/" . "src/")
  ("/home/tori/dev/petl/" . "selfhost/")
  ("/home/tori/" . "dotfiles/")
- ("/home/tori/dev/" . "neocities-site/")
+ ("/home/tori/dev/" . "cgol/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
  "/home/tori/dotfiles/"
+ "/home/tori/notes/"
+ "/home/tori/revision/maths/"
+ "/home/tori/revision/maths/pure/further-y2-hyperbolics/integration-of-hyperbolics.tex/"
+ "/home/tori/revision/maths/pure/"
+ "/home/tori/revision/maths/pure/further-y1-matrices/"
+ "/home/tori/dev/cgol/"
+ "/home/tori/dotfiles/fastfetch/"
  "/home/tori/dev/neocities-site/"
  "/home/tori/dev/neocities-site/scripts/"
  "/home/tori/dev/ace8/invader/"
@@ -65,25 +76,65 @@
 
 ;; ----- ido-work-file-list -----
 (
- "README.md"
- "guestbook.html"
- "microblog.js"
- "index.html"
- "main.asm"
- "lexer.petl"
- "hyprlock.conf"
- "style.css"
  ".emacs"
- "main.cc"
+ "agenda.org"
+ "hyperbolic-integration.org"
+ "main.tex"
+ "gol.c"
+ "test.txt"
+ "README.md"
+ ".bashrc"
+ "config.jsonc"
+ "guestbook.html"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/tori/dotfiles/" (26389 27521 887634 414000) "kitty/" "screenshots/" "README.md" "README.md~" ".emacs.rc/" ".emacs.local/" ".emacs.d/" ".emacs.custom.el" ".emacs" ".bashalias" ".bashrc" "waybar/" "hypr/" ".git/" "../" "./")
+ ("/home/tori/dotfiles/" (26390 29320 923475 643000) ".emacs.custom.el" "fastfetch/" "kitty/" "screenshots/" "README.md" "README.md~" ".emacs.rc/" ".emacs.local/" ".emacs.d/" ".emacs" ".bashalias" ".bashrc" "waybar/" "hypr/" ".git/" "../" "./")
 
- ("/home/tori/" (26389 26935 109065 161000) ".bash_history" ".ip" ".ip~" ".emacs.rc/" ".emacs.local/" ".emacs.d/" ".emacs.custom.el" ".emacs" ".bashrc" ".bashalias" ".steampid" ".steampath" ".wallpaper" ".librewolf/" "dotfiles/" ".emacs~" ".emacs.custom.el~" ".waybarreload~" ".face" ".bashalias~" ".odin/" ".bash_history-04220.tmp" ".bash_history-17036.tmp" ".bash_history-06161.tmp" ".bash_history-06862.tmp" ".winxp-2.draft.txt" ".wine/" ".bash_history-03871.tmp" ".bash_history-09309.tmp" ".bash_history-03778.tmp" "Games/" ".vscode-oss/" "deps/" ".android/" ".Genymobile/" ".gzdoom" "DOOM Wads/" ".slade3/" ".slade/" "college/" ".asy/" ".java/" "tex/" "revision/" ".gitconfig" ".tmux.conf" ".npm/" ".tmux-launch.sh" "neocities/" ".ssh/" "Zomboid/" ".steam/" ".tmux/" "dev/" "notes/" "git/" ".themes/" ".var/" ".pki/" ".nv/" "Videos/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".local/" ".config/" ".cache/" ".bash_profile" ".bash_logout" ".mozilla/" "../" "./")
+ ("/home/tori/" (26390 30390 120142 264000) ".bash_history" "notes/" ".ip" ".ip~" ".emacs.rc/" ".emacs.local/" ".emacs.d/" ".emacs.custom.el" ".emacs" ".bashrc" ".bashalias" ".steampid" ".steampath" ".wallpaper" ".librewolf/" "dotfiles/" ".emacs~" ".emacs.custom.el~" ".waybarreload~" ".face" ".bashalias~" ".odin/" ".bash_history-04220.tmp" ".bash_history-17036.tmp" ".bash_history-06161.tmp" ".bash_history-06862.tmp" ".winxp-2.draft.txt" ".wine/" ".bash_history-03871.tmp" ".bash_history-09309.tmp" ".bash_history-03778.tmp" "Games/" ".vscode-oss/" "deps/" ".android/" ".Genymobile/" ".gzdoom" "DOOM Wads/" ".slade3/" ".slade/" ".asy/" ".java/" ".gitconfig" ".tmux.conf" ".npm/" ".tmux-launch.sh" "neocities/" ".ssh/" "Zomboid/" ".steam/" ".tmux/" "dev/" "git/" ".themes/" ".var/" ".pki/" ".nv/" "Videos/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".local/" ".config/" ".cache/" ".bash_profile" ".bash_logout" ".mozilla/" "../" "./")
 
- ("/home/tori/dev/neocities-site/" (26389 13590 289849 551000) "index.html" "index.html~" "guestbook.html" "gay-agenda.html" "style.css" "writing/" "scripts/" "portfolio/" "images/" "fonts/" "blog/" "template.html" "not_found.html" "deploy.sh" "changelog.html" "../" "./")
+ ("/home/tori/notes/" (26390 29359 477347 927000) "agenda.org" "agenda.org~" "../" "./")
+
+ ("/home/tori/revision/maths/" (26390 21521 347318 313000) "hyperbolic-integration.org" "hyperbolic-integration.org~" "stats/" "mechanics/" "pure/" "../" "./")
+
+ ("/home/tori/revision/maths/pure/further-y2-hyperbolics/integration-of-hyperbolics.tex/" (26390 20592 396435 657000) "main.pdf" "main.tex" "main.tex~" "main.prv/" "prv_main.log" "auto/" "main.toc" "main.out" "main.aux" "main.log" "texput.log" "../" "./")
+
+ ("/home/tori/revision/maths/pure/further-y2-hyperbolics/" (26390 19106 269837 651000) "integration-of-hyperbolics.tex/" "../" "./")
+
+ ("/home/tori/revision/maths/pure/" (26390 19078 393800 621000) "further-y2-hyperbolics/" "further-y1-matrices/" "../" "./")
+
+ ("/home/tori/.emacs.local/" (26388 3242 544693 971000) "odin-mode.el" "odin-mode.el~" "petl-mode.el" "simpc-mode.el" "../" "./")
+
+ ("/home/tori/git/nordic-night/" (26386 34433 426803 179000) "screenshots/" "nordic-night-theme.el" "nordic-midnight-theme.el" "README.md" "LICENSE" "CHANGELOG.org" ".gitattributes" ".git/" "../" "./")
+
+ ("/home/tori/dev/asmgame/src/" (26386 36662 795643 299000) "main.asm" "main.asm~" "probe.c" "probe.c~" "raylib.asm" "raylib.asm~" "test.c~" "../" "./")
+
+ ("/home/tori/dev/zgame/" (26386 47551 821541 283000) "assets/" "zgame" "Makefile" "obj/" "src/" "../" "./")
+
+ ("/home/tori/.config/waybar/" (26386 50917 619146 249000) "style.css" "config" "config~" "style.css~" "scripts/" "../" "./")
+
+ ("/home/tori/.config/kitty/" (26389 27521 887634 414000) "kitty.conf" "kitty.conf~" "../" "./")
+
+ ("/home/tori/.config/hypr/" (26386 51160 166470 235000) "hyprland.conf" "hyprlock.conf" "hypridle.conf" "hyprpaper.conf" "../" "./")
+
+ ("/home/tori/dev/zgame/src/" (26386 47516 96662 312000) "main.cc" "main.cc~" "../" "./")
+
+ ("/home/tori/dotfiles/waybar/" (26386 50917 619146 249000) "style.css" "config" "config~" "style.css~" "scripts/" "../" "./")
+
+ ("/home/tori/dev/neocities-site/" (26389 13617 245144 517000) "guestbook.html" "guestbook.html~" "index.html" "index.html~" "gay-agenda.html" "style.css" "writing/" "scripts/" "portfolio/" "images/" "fonts/" "blog/" "template.html" "not_found.html" "deploy.sh" "changelog.html" "../" "./")
+
+ ("/home/tori/dev/cgol/" (26390 15463 100822 196000) "gol" "out.txt" ".gitignore" ".gitignore~" ".git/" "test.txt" "test.txt~" "gol.c" "gol.c~" "../" "./")
+
+ ("/home/tori/revision/maths/pure/further-y1-matrices/" (26325 62638 917390 802000) "main.synctex.gz" "main.fls" "main.tex" "main.toc" "main.pdf" "main.out" "main.log" "main.fdb_latexmk" "main.aux" "../" "./")
+
+ ("/home/tori/revision/" (26325 49744 798170 0) "maths/" "../" "./")
+
+ ("/home/tori/college/" (26344 1903 774513 503000) "merge-sort" "merge-sort.c" "8-1-binary-tree.py" "8-1-fact-rec.py" "8-1-fact-it.py" "../" "./")
+
+ ("/home/tori/dev/" (26390 6296 374255 278000) "cgol/" "zgame/" "asmgame/" "petl/" "probe/" "ospcc/" "boomer-shooter/" "osp8/" "compsci-project/" "neocities-site/" "ace8/" "../" "./")
+
+ ("/home/tori/dotfiles/fastfetch/" (26390 527 28478 871000) "config.jsonc" "config.jsonc~" "../" "./")
 
  ("/home/tori/dev/neocities-site/scripts/" (26345 18560 891732 459000) "changelog.js" "guestbook.js" "zonelets-blog.js" "zonelets-portfolio.js" "writingManager.js" "navbarManager.js" "microblog.js" "../" "./")
 
@@ -91,25 +142,11 @@
 
  ("/home/tori/dotfiles/hypr/" (26386 51160 166470 235000) "hyprland.conf" "hyprlock.conf" "hypridle.conf" "hyprpaper.conf" "../" "./")
 
- ("/home/tori/dotfiles/waybar/" (26386 50670 275303 805000) "style.css" "config" "config~" "style.css~" "scripts/" "../" "./")
-
- ("/home/tori/dev/zgame/src/" (26386 40138 153354 144000) "main.cc" "../" "./")
-
- ("/home/tori/dev/zgame/" (26386 40139 641515 24000) "zgame" "Makefile" "obj/" "src/" "../" "./")
-
  ("/home/tori/dev/ace8/invader/" (26325 33702 222603 434000) "main.asm" "screen.asm" "math.asm" "graphics" "background.asm" "../" "./")
 
  ("/home/tori/.config/" (26386 42091 367695 826000) "waybar/" "hypr/" "wofi/" "pavucontrol.ini" "simple-scan/" "kitty/" "mimeapps.list" "brasero/" "user-share/" "Firebird Emus/" "aseprite/" "kcachegrindrc" "libreoffice/" "Genymobile/" "fontforge/" "libvirt/" "gnome-boxes/" "inkscape/" "texstudio/" "enchant/" "obs-studio/" "ranger/" "btop/" "tmux-powerline/" "gh/" "neofetch/" "htop/" "pop-shell/" "menus/" "monitors.xml" "monitors.xml~" "nvim/" "nautilus/" "gtk-4.0/" "google-chrome-unstable/" "gnome-session/" "xdg-terminals.list" "GNOME-xdg-terminals.list" ".gsd-keyboard.settings-ported" "pulse/" "abrt/" "evolution/" "gtk-3.0/" "ibus/" "user-dirs.locale" "user-dirs.dirs" "goa-1.0/" "dconf/" "gnome-initial-setup-done" "../" "./")
 
- ("/home/tori/.config/hypr/" (26386 40929 173139 332000) "hyprland.conf" "hyprland.conf~" "hyprlock.conf" "hyprlock.conf~" "hypridle.conf" "hypridle.conf~" "hyprpaper.conf" "../" "./")
-
- ("/home/tori/dev/" (26386 39773 729957 378000) "zgame/" "asmgame/" "petl/" "probe/" "ospcc/" "boomer-shooter/" "osp8/" "compsci-project/" "neocities-site/" "ace8/" "../" "./")
-
- ("/home/tori/dev/asmgame/src/" (26386 35777 236907 443000) "raylib.asm" "raylib.asm~" "main.asm" "main.asm~" "test.c~" "../" "./")
-
  ("/home/tori/dev/asmgame/" (26386 35810 372489 800000) "game" "Makefile" "obj/" "src/" "../" "./")
-
- ("/home/tori/git/nordic-night/" (26386 34246 473009 59000) "screenshots/" "nordic-night-theme.el" "nordic-midnight-theme.el" "README.md" "LICENSE" "CHANGELOG.org" ".gitattributes" ".git/" "../" "./")
 
  ("/home/tori/git/" (26386 15657 628195 382000) "dotfiles/" "Hyprshot/" "nordic-night/" "Dungeon-Dive-Project/" "denise/" "argparse/" "raylib/" "nvim-config/" "../" "./")
 
@@ -117,13 +154,9 @@
 
  ("/home/tori/dev/probe/odin/" (26384 54895 592838 513000) "test.odin" "test.odin~" "../" "./")
 
- ("/home/tori/.config/kitty/" (26386 29085 241474 422000) "kitty.conf" "kitty.conf~" "../" "./")
-
  ("/home/tori/dev/probe/" (26385 4528 154778 876000) "main.c" "main.c~" "odin/" "main" "test" "test.o" "test.asm" "test.asm~" "../" "./")
 
  ("/home/tori/.local/" (26386 7314 359732 24000) "bin/" "Z64K.jar" "include/" "lib/" "state/" "share/" "../" "./")
-
- ("/home/tori/.config/waybar/" (26386 31350 638290 565000) "config" "config~" "style.css" "style.css~" "scripts/" "../" "./")
 
  ("/home/tori/dev/petl/src/" (26385 30369 948724 933000) "compiler.py" "compiler.py~" "petl.py" "petl.py~" "lexer.py" "lexer.py~" "parser.py" "parser.py~" "__pycache__/" "std/" "interpreter.py" "common.py" "../" "./")
 
@@ -154,8 +187,6 @@
  ("/home/tori/dev/petl/" (26380 60651 694678 176000) "petl-mode.el" "petl-mode.el~" "selfhost/" "tests/" "src/" ".git/" "README.md" "README.md~" ".gitignore" "libpetl/" "__pycache__/" "../" "./")
 
  ("/home/tori/dev/petl/tests/" (26378 40404 224861 542000) "test.petl" "test.petl~" "test" "petl.out.asm" "test.o" "../" "./")
-
- ("/home/tori/.emacs.local/" (26379 41731 370100 523000) "odin-mode.el" "odin-mode.el~" "petl-mode.el" "simpc-mode.el" "../" "./")
 
  ("/home/tori/dev/petl/libpetl/src/" (26377 11885 914696 210000) "libpetl.c" "libpetl.c~" "../" "./")
 
