@@ -31,6 +31,16 @@
 - [.emacs](.emacs)
 - [.emacs.custom.el](.emacs.custom.el)
 
+### Neovim
+- [nvim/init.lua](nvim/init.lua)
+- [nvim/lua/keybinds.lua](nvim/lua/keybinds.lua)
+- [nvim/lua/options.lua](nvim/lua/options.lua)
+- [nvim/lua/autocommands.lua](nvim/lua/autocommands.lua)
+
+### wofi
+- [wofi/config](wofi/config)
+- [wofi/style.css](wofi/style.css)
+
 ### Fastfetch
 - [fastfetch/config.jsonc](fastfetch/config.jsonc)
 
