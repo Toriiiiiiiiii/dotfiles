@@ -36,7 +36,7 @@ require('lazy').setup({
             vim.g.UltiSnipsExpandTrigger = '<tab>'
             vim.g.UltiSnipsJumpForwardTrigger = '<tab>'
             vim.g.UltiSnipsJumpBackwardTrigger = '<s-tab>'
-            vim.g.UltiSnipsSnippetDirectories = {'/home/tori/.vim/UltiSnips'}
+            vim.g.UltiSnipsSnippetDirectories = {'/home/tori/dotfiles/nvim/UltiSnips'}
         end
     },
     { 'quangnguyen30192/cmp-nvim-ultisnips', lazy=false },
@@ -52,5 +52,6 @@ require('lazy').setup({
 
     require('plugins/nvim-lspconfig'),
     require('plugins/nvim-cmp'),
-    require('plugins/theme')
+    require('plugins/theme'),
+    require('plugins/dashboard-nvim')
 })

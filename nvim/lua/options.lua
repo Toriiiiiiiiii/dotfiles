@@ -6,6 +6,7 @@ vim.g.maplocalleader = ' '
 vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.cursorline = false
+vim.opt.fillchars = {eob = ' '}
 
 -- Enable mouse
 vim.opt.mouse = 'a'
