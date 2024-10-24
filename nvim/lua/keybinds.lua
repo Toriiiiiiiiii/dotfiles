@@ -1,4 +1,5 @@
 vim.keymap.set('n', '<leader>f', '<Cmd>Ex<CR>', {silent = true})	-- Enter netrw with leader + F
+vim.keymap.set('n', '<tab>', "<Cmd>Oil<CR>", {silent = true})
 vim.keymap.set('t', '<Esc><Esc>', '<C-\\><C-n>', { silent = true })	-- Exit terminal mode with ESC + ESC
 
 -- Moving between panes
