@@ -6,9 +6,9 @@
 
 (setq compilation-window-height 10)
 
-(add-to-list 'default-frame-alist '(font . "Iosevka"))
+(add-to-list 'default-frame-alist '(font . "Iosevka Nerd Font Mono"))
 (add-to-list 'load-path "~/.emacs.local/")
-(add-to-list 'load-path "~/git/org-mode/lisp")
+;(add-to-list 'load-path "~/git/org-mode/lisp")
 
 (load-file "~/.emacs.rc/rc.el")
 
@@ -29,10 +29,10 @@
 (add-to-list 'auto-mode-alist '("\\.[hc]\\(pp\\)?\\'" . simpc-mode))
 
 ;; Petl mode for editing Petl files.
-(require 'petl-mode)
+;(require 'petl-mode)
 
 ;; Odin mode for editing Odin files.
-(require 'odin-mode)
+;(require 'odin-mode)
 
 ;; IDO Mode
 (rc/require 'smex 'ido-completing-read+)

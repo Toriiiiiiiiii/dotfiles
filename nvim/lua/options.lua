@@ -21,7 +21,7 @@ vim.cmd('set guicursor=n-v-c-i:block')
 vim.cmd('set wrap!')
 
 -- Set colour theme
-vim.cmd("colorscheme gruvbox")
+vim.cmd("colorscheme tokyonight")
 vim.cmd [[
     highlight Normal guibg=none
     highlight NonText guibg=none

@@ -7,7 +7,7 @@ return {
             build = 'make install_jsrregexp',
             dependencies = {},
         },
-        'saadwaitz1/cmp_luasnip',
+        'saadparwaiz1/cmp_luasnip',
         'hrsh7th/cmp-nvim-lsp',
         'hrsh7th/cmp-path',
     },

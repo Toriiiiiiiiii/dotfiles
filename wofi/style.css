@@ -1,7 +1,8 @@
 window {
     font-size: 15px;
     font-family: "Intone Mono Nerd Font";
-    background-color: #3c3836;
+    background-color: #1f2335;
+    opacity: 0.75;
     border-radius: 10px;
 }
 
@@ -14,7 +15,7 @@ window {
 #entry:selected {
     /* background-color: rgba(187,204,221,0.5); */
     background: linear-gradient(45deg, rgba(91,206,250,1.0) 0%, rgba(245,169,184,1.0) 60%);
-    color: #333333;
+    color: #b4f9f8;
     border-radius: 10px;
 }
 
@@ -26,8 +27,12 @@ window {
     color: #333333;
 }
 
+#text {
+    color: #b4f9f8;
+}
+
 #input{
-    background: #3c3836;
+    background: #1f2335;
     font-size: 20px;
     font-weight: 500;
     color: grey;

@@ -1,14 +1,29 @@
-snippet tg "tag" b
+snippet tg "Tag" b
 <$1>
     $0
 </$1>
 endsnippet
 
-snippet br "Line break" b
-<br/>
-$0
+snippet u "Unordered List" b
+<ul>
+    $0
+</ul>
 endsnippet
 
-snippet h "Header" b
+snippet l "List item" b
+<li>$0</li>
+endsnippet
+
+snippet o "Ordered List" b
+<ol>
+    <$0>
+</ul>
+endsnippet
+
+snippet h "Heading" b
 <h$1>$0</h$1>
+endsnippet
+
+snippet lb "Line Break" b
+<br/>$0
 endsnippet

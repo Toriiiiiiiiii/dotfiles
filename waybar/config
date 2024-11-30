@@ -2,16 +2,14 @@
 {
     "layer": "top",
     "position": "top",
-    "margin": 5,
+    "margin": 0,
 
     // If height property would be not present, it'd be calculated dynamically
     "height": 30,
 
     "modules-left": [
-        "hyprland/workspaces",
-        "custom/media"
-    //    "cava",
-    //    "hyprland/window",
+        "hyprland/workspaces"
+//        "cava"
     ],
  
     "modules-center": [
@@ -239,26 +237,26 @@
         "exec": "/usr/bin/python3 $HOME/.config/waybar/scripts/mediaplayer.py 2> /dev/null" // Script in resources folder
     },
 
-   // "cava": {
-   //     "cava_config": "$XDG_CONFIG_HOME/cava/cava.conf",
-   //     "framerate": 30,
-   //     "autosens": 1,
-   //     "sensitivity": 100,
-   //     "bars": 14,
-   //     "lower_cutoff_freq": 50,
-   //     "higher_cutoff_freq": 10000,
-   //     "method": "pulse",
-   //     "source": "auto",
-   //     "stereo": true,
-   //     "reverse": false,
-   //     "bar_delimiter": 0,
-   //     "monstercat": false,
-   //     "waves": false,
-   //     "noise_reduction": 0.77,
-   //     "input_delay": 2,
-   //     "format-icons" : ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█" ],
-   //     "actions": {
-   //         "on-click-right": "mode"
-   //     }
-   // },
+    "cava": {
+        "cava_config": "$XDG_CONFIG_HOME/cava/cava.conf",
+        "framerate": 30,
+        "autosens": 1,
+        "sensitivity": 100,
+        "bars": 14,
+        "lower_cutoff_freq": 50,
+        "higher_cutoff_freq": 10000,
+        "method": "pulse",
+        "source": "auto",
+        "stereo": true,
+        "reverse": false,
+        "bar_delimiter": 0,
+        "monstercat": false,
+        "waves": false,
+        "noise_reduction": 0.77,
+        "input_delay": 2,
+        "format-icons" : ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█" ],
+        "actions": {
+            "on-click-right": "mode"
+        }
+    },
 }

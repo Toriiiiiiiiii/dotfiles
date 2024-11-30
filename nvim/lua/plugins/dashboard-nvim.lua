@@ -36,9 +36,9 @@ return {
         header = vim.split(logo, "\n"),
         -- stylua: ignore
         center = {
-          { action = "ex .",                                           desc = " Browse Files",    icon = " ", key = "f" },
+          { action = "Oil .",                                           desc = " Browse Files",    icon = " ", key = "f" },
           { action = "ene | startinsert",                              desc = " New File",        icon = " ", key = "n" },
-          { action = 'Ex ~/dotfiles/nvim',                             desc = " Config",          icon = " ", key = "c" },
+          { action = 'Oil ~/dotfiles/nvim',                             desc = " Config",          icon = " ", key = "c" },
           { action = function() vim.api.nvim_input("<cmd>qa<cr>") end, desc = " Quit",            icon = " ", key = "q" },
         },
         footer = function()

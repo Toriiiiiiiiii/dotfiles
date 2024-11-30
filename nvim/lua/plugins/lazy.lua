@@ -12,6 +12,7 @@ vim.opt.rtp:prepend(lazypath)
 require('lazy').setup({
     require('plugins/telescope'),
     require('plugins/lazydev'),
+    require('plugins/nvim-presence'),
 
     { 'Bilal2453/luvit-meta', lazy = true },
     {
@@ -23,23 +24,39 @@ require('lazy').setup({
         end
     },
     {
-        'SirVer/ultisnips',
-        lazy = false,
-
-        init = function()
-            vim.g.UltiSnipsExpandTrigger = '<tab>'
-            vim.g.UltiSnipsJumpForwardTrigger = '<tab>'
-            vim.g.UltiSnipsJumpBackwardTrigger = '<s-tab>'
-        end,
-
-        config = function()
-            vim.g.UltiSnipsExpandTrigger = '<tab>'
-            vim.g.UltiSnipsJumpForwardTrigger = '<tab>'
-            vim.g.UltiSnipsJumpBackwardTrigger = '<s-tab>'
-            vim.g.UltiSnipsSnippetDirectories = {'/home/tori/dotfiles/nvim/UltiSnips'}
-        end
+      "christoomey/vim-tmux-navigator",
+      cmd = {
+        "TmuxNavigateLeft",
+        "TmuxNavigateDown",
+        "TmuxNavigateUp",
+        "TmuxNavigateRight",
+        "TmuxNavigatePrevious",
+      },
+      keys = {
+        { "<c-h>", "<cmd><C-U>TmuxNavigateLeft<cr>" },
+        { "<c-j>", "<cmd><C-U>TmuxNavigateDown<cr>" },
+        { "<c-k>", "<cmd><C-U>TmuxNavigateUp<cr>" },
+        { "<c-l>", "<cmd><C-U>TmuxNavigateRight<cr>" },
+        { "<c-\\>", "<cmd><C-U>TmuxNavigatePrevious<cr>" },
+      },
     },
-    { 'quangnguyen30192/cmp-nvim-ultisnips', lazy=false },
+--    {
+--        'SirVer/ultisnips',
+--        lazy = false,
+--
+--        init = function()
+--            vim.g.UltiSnipsExpandTrigger = '<tab>'
+--            vim.g.UltiSnipsJumpForwardTrigger = '<tab>'
+--            vim.g.UltiSnipsJumpBackwardTrigger = '<s-tab>'
+--        end,
+--
+--        config = function()
+--            vim.g.UltiSnipsExpandTrigger = '<tab>'
+--            vim.g.UltiSnipsJumpForwardTrigger = '<tab>'
+--            vim.g.UltiSnipsJumpBackwardTrigger = '<s-tab>'
+--            vim.g.UltiSnipsSnippetDirectories = {'/home/tori/dotfiles/nvim/UltiSnips'}
+--        end
+--    },
     {
         'MeanderingProgrammer/render-markdown.nvim',
         dependencies = { 'nvim-treesitter/nvim-treesitter', 'echasnovski/mini.nvim' }, -- if you use the mini.nvim suite

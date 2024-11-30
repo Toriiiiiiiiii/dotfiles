@@ -53,12 +53,11 @@ Arc-Dark Color Scheme
 /* The whole bar */
 window#waybar {
     /* color: #dfdfdf; */
-    background-color: rgba(0, 0, 0, 0.0);
+    background-color: rgba(0, 0, 0, 0.35);
     /* background-color: rgba(8, 0, 37, 0.85); */
     /* background-color: rgba(0,0,0,0); */
     font-family: IntoneMonoNerdFont;
     font-size: 14px;
-    border-radius: 10px;
 }
 
 /* Every modules */
@@ -83,7 +82,7 @@ window#waybar {
     padding: 0.25rem 0.75rem;
     margin: 0px 6px;
     /* background-color: rgba(0,0,0,0.8); */
-    border-radius: 20px;
+    border-radius: 0px;
 }
 
 /* -----------------------------------------------------------------------------
